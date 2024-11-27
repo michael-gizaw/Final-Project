@@ -1,0 +1,112 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.weather-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.weather-search input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    border: 1px solid #003e03;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.weather-search button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #04675f;
+    border-left: none;
+    background-color: #0d4f1e;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.weather-search button:hover {
+    background-color: #019426;
+}
+
+.weather-display {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weather-display h2 {
+    margin-bottom: 10px;
+    color: #004d40;
+}
+
+.weather-display p {
+    margin: 5px 0;
+    color: #4f8000;
+}
+
+.pinned-cities {
+    margin-top: 20px;
+}
+
+.pinned-cities h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #00796b;
+}
+
+#pinnedCitiesList {
+    list-style-type: none;
+}
+
+#pinnedCitiesList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #b2dfdb;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+#pinnedCitiesList li button {
+    background-color: #d32f2f;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#pinnedCitiesList li button:hover {
+    background-color: #9a0007;
+}
